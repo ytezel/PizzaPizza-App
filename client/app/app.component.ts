@@ -5,7 +5,7 @@ import {FormGroup, FormBuilder, Validators} from '@angular/forms';
   selector: 'my-app',
   template:
     `
-      <div class="container" style="margin-top: 40px;">
+      <div class="container" style="margin-top: 40px;"> 
         <form [formGroup]="loginForm" class="col-xs-12">
           <div class="col-md-6 col-md-offset-3">
             <h4 align="center">Log ind med dit telefonnummer</h4>
